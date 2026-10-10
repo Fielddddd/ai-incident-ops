@@ -1,0 +1,20 @@
+{
+  "name": "data-pipeline",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "ingest": "bun run src/ingest.ts",
+    "query": "bun run src/query.ts",
+    "agent": "bun run src/agent.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@supabase/supabase-js": "^2.117.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
