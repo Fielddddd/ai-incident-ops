@@ -1,0 +1,7 @@
+# Install scripts of these packages are not needed to run the app (their native parts ship
+# prebuilt, or the script only matters when developing the package itself), so they stay disabled.
+allowBuilds:
+  '@google/genai': false
+  protobufjs: false
+  '@parcel/watcher': false
+  unrs-resolver: false
