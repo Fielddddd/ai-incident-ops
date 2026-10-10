@@ -1,6 +1,6 @@
 # AI Incident Ops
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/Fielddddd/ai-incident-ops/actions/workflows/ci.yml/badge.svg)](https://github.com/Fielddddd/ai-incident-ops/actions/workflows/ci.yml)
 
 A chat assistant for on-call engineers. Describe what is going wrong (in Thai or English) and it
 either finds similar past outages in a library of public post-mortems and explains the likely cause
