@@ -1,0 +1,54 @@
+{
+  "title": "Incident console",
+  "tagline": "ผู้ช่วยแก้ปัญหา production สำหรับวิศวกรเข้าเวร",
+  "intro": "บอกอาการที่เจอ แล้วระบบจะหาเหตุการณ์ในอดีตที่คล้ายกันพร้อมวิธีแก้ หรือให้ agent เช็กสถานะ service จริงก่อนแล้วแนะนำให้",
+  "apiChecking": "กำลังตรวจสอบ API",
+  "apiOnline": "ออนไลน์",
+  "apiOffline": "เชื่อมต่อ API ไม่ได้",
+  "modeLabel": "โหมด",
+  "askHint": "ตอบจากรายงานเหตุการณ์ในอดีตเท่านั้น และแสดงว่าใช้รายงานฉบับไหน",
+  "askBusy": "กำลังค้นหา…",
+  "agentHint": "เช็กสถานะ service จริงก่อน แล้วค้นหา post-mortem ที่เกี่ยวข้อง",
+  "agentBusy": "กำลังตรวจสอบ…",
+  "placeholder": "อธิบายอาการ ข้อความ error หรือ service ที่ได้รับผลกระทบ",
+  "agentTrace": "สิ่งที่ agent ทำ",
+  "sources": "post-mortem ที่ตรงกับคำถาม",
+  "truncated": "agent ทำงานครบจำนวนขั้นตอนสูงสุดแล้ว ลองถามให้เจาะจงขึ้นแล้วส่งอีกครั้ง",
+  "networkError": "เชื่อมต่อ API ไม่ได้ ตรวจสอบว่า backend รันอยู่ที่พอร์ต 3001",
+  "newChat": "แชตใหม่",
+  "send": "ส่ง",
+  "copy": "คัดลอก",
+  "copied": "คัดลอกแล้ว",
+  "tryAsking": "ลองถามเช่น",
+  "modeAskShort": "ค้นเอกสาร",
+  "modeAgentShort": "Agent",
+  "disclaimer": "AI อาจตอบผิดได้ ตรวจสอบข้อมูลสำคัญก่อนลงมือแก้ระบบจริง",
+  "mockNote": "สถานะ service ในโหมด Agent เป็นข้อมูลจำลองเพื่อสาธิต",
+  "notSaved": "แชตนี้ไม่ถูกบันทึก และจะหายเมื่อปิดหน้า",
+  "followUps": "คำถามต่อเนื่องที่แนะนำ",
+  "helpful": "มีประโยชน์",
+  "notHelpful": "ไม่มีประโยชน์",
+  "regenerate": "ตอบใหม่",
+  "examples": {
+    "ask": {
+      "pool": "connection pool ของ database เต็ม ทำให้ API หลาย endpoint ช้า",
+      "ttl": "ลด cache TTL แล้วฐานข้อมูลโหลดพุ่งตอน traffic peak",
+      "overflow": "integer overflow ที่ foreign key ทำให้สร้างข้อมูลใหม่ไม่ได้"
+    },
+    "agent": {
+      "timeout": "ลูกค้าแจ้งว่า API timeout ช่วยเช็ก database แล้วแนะนำวิธีแก้",
+      "auth": "auth-service ปกติดีไหม"
+    }
+  },
+  "followUpItems": {
+    "prevent": "ป้องกันไม่ให้เกิดซ้ำได้อย่างไร",
+    "steps": "สรุปเป็นขั้นตอนสั้นๆ",
+    "alerts": "ควรตั้งการแจ้งเตือนอะไรบ้าง",
+    "gateway": "เช็ก api-gateway ด้วย"
+  },
+  "tools": {
+    "check_service_health": "ตรวจสอบสถานะ service",
+    "query_incident_kb": "ค้นหา post-mortem ในอดีต"
+  },
+  "streamInterrupted": "การเชื่อมต่อขาดก่อนตอบเสร็จ ลองถามอีกครั้ง"
+}

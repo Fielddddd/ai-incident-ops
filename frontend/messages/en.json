@@ -1,0 +1,54 @@
+{
+  "title": "Incident console",
+  "tagline": "Production troubleshooting assistant for on-call engineers",
+  "intro": "Describe what you are seeing. The tool finds similar past incidents with fixes, or lets an agent check live service health first and then advise.",
+  "apiChecking": "Checking API",
+  "apiOnline": "Online now",
+  "apiOffline": "API unreachable",
+  "modeLabel": "Mode",
+  "askHint": "Answers only from past incident reports, and shows which reports it used.",
+  "askBusy": "Searching…",
+  "agentHint": "Checks live service health first, then looks up matching post-mortems.",
+  "agentBusy": "Investigating…",
+  "placeholder": "Describe the symptoms, error messages, or affected services",
+  "agentTrace": "What the agent did",
+  "sources": "Matched post-mortems",
+  "truncated": "The agent hit its step limit. Narrow the question and try again.",
+  "networkError": "Can't reach the API. Check that the backend is running on port 3001.",
+  "newChat": "New chat",
+  "send": "Send",
+  "copy": "Copy",
+  "copied": "Copied",
+  "tryAsking": "Try asking",
+  "modeAskShort": "Search docs",
+  "modeAgentShort": "Agent",
+  "disclaimer": "AI can make mistakes. Verify important details before changing a live system.",
+  "mockNote": "Service status in Agent mode is simulated demo data.",
+  "notSaved": "This chat is not saved. It clears when you close the page.",
+  "followUps": "Suggested follow-ups",
+  "helpful": "Helpful",
+  "notHelpful": "Not helpful",
+  "regenerate": "Regenerate",
+  "examples": {
+    "ask": {
+      "pool": "Database connection pool exhaustion across API endpoints",
+      "ttl": "Cache stampede after a TTL reduction",
+      "overflow": "Integer overflow on a foreign key blocks new records"
+    },
+    "agent": {
+      "timeout": "Customers report API timeouts. Check the database and advise.",
+      "auth": "Is auth-service healthy?"
+    }
+  },
+  "followUpItems": {
+    "prevent": "How do we prevent this from happening again?",
+    "steps": "Summarize as short steps",
+    "alerts": "What alerts should we set up?",
+    "gateway": "Check api-gateway too"
+  },
+  "tools": {
+    "check_service_health": "Checked service health",
+    "query_incident_kb": "Searched past post-mortems"
+  },
+  "streamInterrupted": "The connection was interrupted before the answer finished. Please try again."
+}
